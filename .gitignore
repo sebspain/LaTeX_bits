@@ -107,3 +107,6 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+#don't ignore PDFs in img dir
+!img/*.pdf
