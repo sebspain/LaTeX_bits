@@ -8,10 +8,18 @@
 
 \RequirePackage[margin=2cm]{geometry}
 
+%natbib required for angew bst and to reduce spacing
+\RequirePackage[super,sort&compress,numbers,]{natbib}
+\setlength{\bibsep}{0.0pt} %reducing spacing in bibliography
+
 \RequirePackage[small,compact]{titlesec}
 \titlespacing{\section}{0pt}{0ex}{0.1ex}
 \titlespacing{\subsection}{0pt}{0ex}{0ex}
 \titlespacing{\subsubsection}{0pt}{0ex}{0ex}
+
+% customisable lists 
+\RequirePackage{enumitem}
+\setlist{nolistsep}%remove spacing from lists
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[scaled]{helvet}

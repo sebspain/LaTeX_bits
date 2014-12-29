@@ -4,6 +4,8 @@
 \usepackage{lipsum} % used for dummy text
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}%to do list and comments
 \usepackage{soul}%highlighting etc
+%--------------------------------------%
+
 
 %I use these routinely but may not be needed
 \usepackage[version=3]{mhchem}
@@ -19,20 +21,12 @@
 \usepackage{caption}
 \captionsetup[figure]{labelfont={it,bf},textfont=it}
 
-%natbib required for angew bst
-\usepackage[super,sort&compress,numbers,]{natbib}
-\setlength{\bibsep}{0.0pt} %reducing spacing in bibliography
-
 %set up two bibliographies for parts 1 and 2
 \usepackage[resetlabels]{multibib}
 \newcites{A,B}{References,%
 References}
 
 \usepackage[british]{babel}
-
-% allow use of roman numerals for lists
-\usepackage{enumitem}
-\setlist{nolistsep}%remove spacing from lists
 
 %%%Fancy header settings. Remove draft parts for final
 \usepackage{fancyhdr}
